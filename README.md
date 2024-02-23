@@ -24,8 +24,8 @@ Integrating the esbuild-css-as-string plugin into your esbuild configuration is 
 
 ```js
 // esbuild.config.js
-const esbuild = require('esbuild');
-const cssAsStringPlugin = require('esbuild-css-as-string-plugin');
+import * as esbuild from 'esbuild'
+import cssAsStringPlugin from 'esbuild-css-as-string';
 
 esbuild.build({
   entryPoints: ['src/index.js'],
