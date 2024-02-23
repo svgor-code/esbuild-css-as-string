@@ -1,9 +1,10 @@
 {
   "name": "esbuild-css-as-string",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Transform your CSS files into string",
   "type": "module",
   "main": "./dist/index.js",
+  "repository": "https://github.com/svgor-code/esbuild-css-as-string",
   "scripts": {
     "build": "esbuild src/index.js --outfile=dist/index.js",
     "types": "tsc src/index.js --declaration --allowJs --emitDeclarationOnly --outDir types"
