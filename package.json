@@ -12,5 +12,17 @@
   "license": "ISC",
   "devDependencies": {
     "esbuild": "^0.20.1"
-  }
+  },
+  "keywords": [
+    "esbuild-plugin",
+    "css-as-string",
+    "css-import",
+    "shadow-dom",
+    "web-components",
+    "style-encapsulation",
+    "frontend",
+    "javascript",
+    "css",
+    "esbuild-css"
+  ]
 }
