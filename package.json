@@ -1,0 +1,16 @@
+{
+  "name": "esbuild-css-as-string",
+  "version": "1.0.0",
+  "description": "Transform your CSS files into string",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "scripts": {
+    "build": "esbuild src/index.js --outfile=dist/index.cjs --format=cjs",
+    "types": "tsc src/index.js --declaration --allowJs --emitDeclarationOnly --outDir types"
+  },
+  "author": "Konstantin Troitskiy",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.20.1"
+  }
+}
