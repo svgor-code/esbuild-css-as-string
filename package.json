@@ -1,6 +1,6 @@
 {
   "name": "esbuild-css-as-string",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Transform your CSS files into string",
   "type": "module",
   "main": "./dist/index.js",
