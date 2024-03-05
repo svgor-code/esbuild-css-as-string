@@ -15,7 +15,7 @@ To get started with the `esbuild-css-as-string` plugin, first ensure you have es
 
 ```sh
 npm install esbuild --save-dev
-npm install esbuild-css-as-string-plugin --save-dev
+npm install esbuild-css-as-string --save-dev
 ```
 
 ## Setup
